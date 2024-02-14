@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULUWE</title>
+    <link rel="stylesheet" href="cada-produto.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">BULUWE</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">BOLUWE</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left"></i> <h3>↩️ voltar</h3> 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> <h3>Loja 🛒</h3> 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 BULUWE </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">BULUWE</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio"> <strong></strong> Saiba mais sobre o item escolhido <i class="bi bi-emoji-frown"></i></p>
+                <div class="conteudo">    
+                    <div class="imagens">
+                        <img class="imagem" src="img/abrigos/02.jpg" alt="">
+                        <div class="outros-lados">
+                            <img class="lado"src="img/abrigos/images.jpeg" alt="">
+                            <img class="lado"src="img/abrigos/images2.jpeg" alt="">
+                            <img class="lado"src="img/abrigos/images3.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="descricao-dos-productos">
+                        <h2 style="color: rgb(43, 43, 160);">nike Camisola puphi</h2>
+                        <h4 style="color: black;">nike</h4>
+                        <p style="margin-top: 10px;color:rgb(43, 43, 160);">1000.00 MT </p>
+                        <p style="color: rgb(43, 43, 160);">🚚💨 entregas grates</p>
+                        <p style="margin-top: 5px; margin-top:50px ; margin-bottom: 5px;">Cores Disponiveis  <span class="hr"></span></p>
+                        <div class="cores">
+                            <div class="cores-disponiveis-1 "></div>
+                            <div class="cores-disponiveis-2" ></div>
+                            <div class="cores-disponiveis-3"></div>
+                        </div>
+                        <p style="margin-top: 20px; margin-bottom: 5px;">Tamanho <strong class="tamanho-do-produto">S</strong>  <span class="hr-2"></span></p>
+                        <div class="escollher-tamanho">
+                            <div class="tamanho">S</div>
+                            <div class="tamanho">M</div>
+                            <div class="tamanho">L</div>
+                            <div class="tamanho">XL</div>
+                        </div>
+                        <a class="visualisar-o-tamanho" href=""> <strong>📏</strong> Visualisar o tamanho</a>
+                        <p style="color: rgb(43, 43, 160); margin-top: 190px;">Indicacoes de lavagem</p>
+                        <p><img class="font" src="img/font/temperatura.png" alt=""> Lavar máx. 30 ºC num programa delicado</p>
+                        <p><img class="font" src="img/font/___51313O1.webp" alt="">Não usar lixívia</p>
+                        <p><img class="font" src="img/font/images.jpeg" alt="">Limpeza a seco</p>
+                        <p><img class="font" src="img/font/images.png" alt="">Secadora a baixa temperatura</p>
+                        <div id="carrito-productos" class="carrito-productos disabled">
+                            <!-- Esto se va a completar con el JS -->
+                            
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </main>
+
+        <script src="cada-produto.js"></script>
+</body>
+</html>
